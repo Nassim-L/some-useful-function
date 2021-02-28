@@ -1,6 +1,6 @@
 user_list = {'sim':'shelby',}
 polling = True
-p = "done you key has been add to user list"
+p = "done you key has been added  to user_list"
 while polling:
     key = input('put yout key:  ')
     value = input('put yout value: ')
