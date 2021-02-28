@@ -17,7 +17,7 @@ class AnonymousSurvey:
         print(self.question)
 
 
-    def store_response(self,newresponse): #this methode he will store all responses in json file
+    def store_response(self,newresponse): #this methode she will store all responses in json file
                                                #and u will return self.resposne 
 
         self.newresponse = newresponse
@@ -57,7 +57,7 @@ class AnonymousSurvey:
             self.response = a 
             return self.response
 
-    def show_all_respones(self):    #this methode he will return all answers for the json file"
+    def show_all_respones(self):    #this methode she will return all answers in the json file"
         file11 = 'responses.json'
         with open(file11) as f:  
             a = json.load(f)  
